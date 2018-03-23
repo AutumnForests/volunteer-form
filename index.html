@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  <section class="">
+  <section>
     <div class="header push island-1-2">
       <header>
         <h1 class="yotta push-1-8 pad-t-1-2">Apply to be a tree planter</h1>
@@ -34,8 +34,8 @@
           <p class="italic">What all your friends call you, e.g. “Liz”.</p>
         </div>
         <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2 gutter-1-2">
-          <label class="mega" for="birthdat">Date of birth</label>
-          <input id="birthdat" placeholder="yyyy-mm-dd" required>
+          <label class="mega" for="date">Date of birth</label>
+          <input type="date "id="birthdat" placeholder="yyyy-mm-dd" required>
         </div>
         <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2 gutter-1-2">
           <label class="mega" for="shirt">T-shirt size</label>
@@ -55,11 +55,11 @@
         </div>
         <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2 gutter-1-2">
           <label class="mega" for="email">Email</label>
-          <input id="email" required>
+          <input type="email" id="email" required>
         </div>
         <div class="unit xs-1 s-1 m-1-2 l-1-2 push-2 gutter-1-2">
-          <label class="mega" for="phone">Phone number <i>(optional)</i></label>
-          <input id="phone" required>
+          <label class="mega" for="tel">Phone number <i>(optional)</i></label>
+          <input type="tel" id="phone" required>
         </div>
       </div>
 
@@ -190,25 +190,25 @@
         <div class="yesno">
           <h2 class="giga pad-t-2 gutter-1-2 push-1-2">Do you have a valid driver’s license?</h2>
             <div class="push-2">
-              <input id="yes" type="radio">
+              <input name="yes" id="yes" type="radio">
               <label class="mega gutter-1-2 push-r" for="yes">Yes</label>
-              <input id="no" type="radio">
+              <input name="no" id="no" type="radio">
               <label class="mega" for="no">No</label>
              </div>
 
            <h2 class="giga gutter-1-2 push-1-2">Do you have a pick-up truck you’d be willing to use?</h2>
              <div class="push-2">
-               <input type="radio">
+               <input name="yes" type="radio">
                <label class="mega gutter-1-2 push-r" for="yes">Yes</label>
-               <input type="radio">
+               <input name="no" type="radio">
                <label class="mega" for="no">No</label>
              </div>
 
            <h2 class="giga gutter-1-2 push-1-2">Do you have up-to-date first-aid certification?</h2>
              <div class="push-2">
-               <input type="radio">
+               <input name="yes" type="radio">
                <label class="mega gutter-1-2 push-r" for="yes">Yes</label>
-               <input type="radio">
+               <input name="no" type="radio">
                <label class="mega" for="no">No</label>
              </div>
         </div>
@@ -229,6 +229,7 @@
           <div class="push-0">
             <footer class="mega island">© Tree Hugger International Organization</footer>
           </div>
+          <hr class="hidden">
 
        </section>
 
