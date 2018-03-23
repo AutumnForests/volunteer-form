@@ -1,0 +1,60 @@
+.header {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Noto Serif', serif;
+}
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+legend {
+  font-family: 'Noto Serif', serif;
+}
+
+label {
+  font-family: 'Noto Serif', serif;
+}
+
+.btn {
+  background-color: #6e8c62;
+  color: #fff;
+  border: none;
+  width: 6em;
+}
+
+.personal {
+  border-bottom: 1px #70ad55 solid;
+}
+
+.address {
+  border-bottom: 1px #70ad55 solid;
+}
+
+.activities {
+  border-bottom: 1px #70ad55 solid;
+}
+
+.yesno {
+  border-bottom: 1px #70ad55 solid;
+}
+
+.comments {
+  border-bottom: 1px #70ad55 solid;
+}
+
+i {
+  color: #70ad55;
+}
+
+input[type="checkbox"] + label::before {
+  border-color: #70ad55;
+}
+
+input[type="radio"] + label::before {
+  border-color: #70ad55;
+}
