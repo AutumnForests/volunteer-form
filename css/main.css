@@ -29,6 +29,7 @@ label {
 
 .personal {
   border-bottom: 1px #70ad55 solid;
+  padding-bottom: 6px;
 }
 
 .address {
@@ -45,6 +46,10 @@ label {
 
 .comments {
   border-bottom: 1px #70ad55 solid;
+}
+
+textarea {
+  height: 10em;
 }
 
 i {
