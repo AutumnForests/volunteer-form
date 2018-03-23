@@ -1,10 +1,14 @@
+html {
+  font-family: "Noto Serif", serif;
+}
+
 .header {
   background-color: #70ad55;
   color: #fff;
 }
 
 h2 {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 footer {
@@ -12,12 +16,8 @@ footer {
   color: #fff;
 }
 
-h2 {
-  font-family: 'Noto Serif', serif;
-}
-
 label {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 .btn {
